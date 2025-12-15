@@ -135,7 +135,6 @@ export function ParentSignup({ onBack, onSignup, onLogin }: ParentSignupProps) {
                 >
                   {showPassword ? <EyeOff className="w-7 h-7" /> : <Eye className="w-7 h-7" />}
                 </button>
-              </button>
             </div>
             {formData.password && formData.password.length < 8 && (
               <p className="text-[#F475A8] mt-2 text-[18px] m-0 font-medium">
